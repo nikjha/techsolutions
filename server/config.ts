@@ -1,0 +1,10 @@
+export const {
+  PORT = 5000,
+  NODE_ENV = 'development',
+  JWT_SECRET = 'your-secret-key-here',
+  DATABASE_URL = 'mysql://root:password@localhost:3306/techsolutions',
+  RAZORPAY_KEY_ID = '',
+  RAZORPAY_SECRET = '',
+  PAYPAL_CLIENT_ID = '',
+  PAYPAL_SECRET = '',
+} = process.env;
